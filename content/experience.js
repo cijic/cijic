@@ -96,7 +96,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     },
     "chartScrollbar": {},
     "export": {
-        "enabled": true,
+        "enabled": false,
         "libs": {
             "path": "../libs/amcharts/plugins/export/libs/"
         }
