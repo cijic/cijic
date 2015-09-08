@@ -40,6 +40,15 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2010"
         }]
     }, {
+        "category": "Visual FoxPro",
+        "segments": [{
+            "start": "2004-07",
+            "end": "2006-05"
+        }, {
+            "start": "2007-11",
+            "end": "2008-06"
+        }]
+    }, {
         "category": "Python",
         "segments": [{
             "start": "2006",
