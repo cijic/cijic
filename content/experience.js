@@ -58,12 +58,12 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2013"
         }]
     }, {
-        //     "category" : "Corona SDK",
-        //     "segments" : [{
-        //         "start" : "2010-06",
-        //         "end" : "2010-11"
-        //     }]
-        // }, {
+            "category" : "Corona SDK",
+            "segments" : [{
+                "start" : "2010-06",
+                "end" : "2010-11"
+            }]
+        }, {
         "category": "C++",
         "segments": [{
             "start": "2005",
@@ -84,8 +84,8 @@ var chart = AmCharts.makeChart("chartdiv", {
             "start": "2010-8",
             "end": "2011-05"
         }, {
-            "start": "2011-11",
-            "end": "2015"
+            "start": "2014-11",
+            "end": "2017"
         }]
     }, {
         "category": "Javascript",
@@ -94,7 +94,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2013-05"
         }, {
             "start": "2014",
-            "end": "2015"
+            "end": "2017"
         }]
     }],
     "chartCursor": {
