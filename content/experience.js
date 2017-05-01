@@ -96,6 +96,18 @@ var chart = AmCharts.makeChart("chartdiv", {
             "start": "2014",
             "end": "2017-05"
         }]
+    }, {
+        "category": "MySQL",
+        "segments": [{
+            "start": "2014-01",
+            "end": "2015-09"
+        }]
+    }, {
+        "category": "PostgreSQL",
+        "segments": [{
+            "start": "2015-09",
+            "end": "2017-05"
+        }]
     }],
     "chartCursor": {
         "valueBalloonsEnabled": false,
