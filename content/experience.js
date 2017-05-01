@@ -99,7 +99,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     }, {
         "category": "MySQL",
         "segments": [{
-            "start": "2014-01",
+            "start": "2014-11",
             "end": "2015-09"
         }]
     }, {
