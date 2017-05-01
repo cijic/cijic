@@ -85,7 +85,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2011-05"
         }, {
             "start": "2014-11",
-            "end": "2017"
+            "end": "2017-05"
         }]
     }, {
         "category": "Javascript",
@@ -94,7 +94,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2013-05"
         }, {
             "start": "2014",
-            "end": "2017"
+            "end": "2017-05"
         }]
     }],
     "chartCursor": {
