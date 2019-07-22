@@ -55,7 +55,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2010-05"
         }, {
             "start": "2011-10",
-            "end": "2013"
+            "end": "2015"
         }]
     }, {
             "category" : "Corona SDK",
@@ -85,7 +85,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2011-05"
         }, {
             "start": "2014-11",
-            "end": "2017-05"
+            "end": "2019-07"
         }]
     }, {
         "category": "Javascript",
@@ -94,7 +94,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2013-05"
         }, {
             "start": "2014",
-            "end": "2017-05"
+            "end": "2019-07"
         }]
     }, {
         "category": "MySQL",
@@ -106,7 +106,7 @@ var chart = AmCharts.makeChart("chartdiv", {
         "category": "PostgreSQL",
         "segments": [{
             "start": "2015-09",
-            "end": "2017-05"
+            "end": "2019-07"
         }]
     }],
     "chartCursor": {
