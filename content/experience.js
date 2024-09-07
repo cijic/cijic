@@ -56,14 +56,17 @@ var chart = AmCharts.makeChart("chartdiv", {
         }, {
             "start": "2011-10",
             "end": "2015"
+        }, {
+            "start": "2019-10",
+            "end": "2023-05"
         }]
     }, {
-            "category" : "Corona SDK",
-            "segments" : [{
-                "start" : "2010-06",
-                "end" : "2010-11"
-            }]
-        }, {
+        "category": "Corona SDK",
+        "segments": [{
+            "start": "2010-06",
+            "end": "2010-11"
+        }]
+    }, {
         "category": "C++",
         "segments": [{
             "start": "2005",
@@ -107,6 +110,42 @@ var chart = AmCharts.makeChart("chartdiv", {
         "segments": [{
             "start": "2015-09",
             "end": "2019-07"
+        }]
+    }, {
+        "category": "CodeIgniter 2/3",
+        "segments": [{
+            "start": "2014-08",
+            "end": "2019-07"
+        }]
+    }, {
+        "category": "Laravel 5",
+        "segments": [{
+            "start": "2014",
+            "end": "2016"
+        }]
+    }, {
+        "category": "Symfony",
+        "segments": [{
+            "start": "2014-08",
+            "end": "2019-07"
+        }]
+    }, {
+        "category": "Doctrine",
+        "segments": [{
+            "start": "2014-08",
+            "end": "2019-07"
+        }]
+    }, {
+        "category": "RegEx (Regular Expressions)",
+        "segments": [{
+            "start": "2015-09",
+            "end": "2023"
+        }]
+    }, {
+        "category": "Wix",
+        "segments": [{
+            "start": "2020-01",
+            "end": "2022-10"
         }]
     }],
     "chartCursor": {
