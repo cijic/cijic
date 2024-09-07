@@ -1,6 +1,7 @@
+const currentYear = new Date().getFullYear().toString();
+
 var chart = AmCharts.makeChart("chartdiv", {
     "type": "gantt",
-    "period": "DD",
     "valueAxis": {
         "type": "date"
     },
@@ -12,17 +13,17 @@ var chart = AmCharts.makeChart("chartdiv", {
     "rotate": true,
     "categoryField": "category",
     "segmentsField": "segments",
-    "dataDateFormat": "YYYY-MM-DD",
+    "dataDateFormat": "YYYY-MM",
     "startDateField": "start",
     "endDateField": "end",
     "dataProvider": [{
         "category": "Pascal",
         "segments": [{
-            "start": "2003-09-01",
+            "start": "2003-09",
             "end": "2007-05"
         }]
     }, {
-        "category": "Delphi",
+        "category": "Object Pascal/Delphi",
         "segments": [{
             "start": "2005",
             "end": "2008-04"
@@ -57,7 +58,7 @@ var chart = AmCharts.makeChart("chartdiv", {
             "start": "2011-10",
             "end": "2015"
         }, {
-            "start": "2019-10",
+            "start": "2021-10",
             "end": "2023-05"
         }]
     }, {
@@ -79,7 +80,7 @@ var chart = AmCharts.makeChart("chartdiv", {
         "category": "Qt",
         "segments": [{
             "start": "2010-11",
-            "end": "2014-10"
+            "end": "2015"
         }]
     }, {
         "category": "PHP",
@@ -87,8 +88,8 @@ var chart = AmCharts.makeChart("chartdiv", {
             "start": "2010-8",
             "end": "2011-05"
         }, {
-            "start": "2014-11",
-            "end": "2019-07"
+            "start": "2014",
+            "end": currentYear
         }]
     }, {
         "category": "Javascript",
@@ -97,7 +98,19 @@ var chart = AmCharts.makeChart("chartdiv", {
             "end": "2013-05"
         }, {
             "start": "2014",
-            "end": "2019-07"
+            "end": currentYear
+        }]
+    }, {
+        "category": "SQL",
+        "segments": [{
+            "start": "2004-07",
+            "end": "2006-05"
+        }, {
+            "start": "2007-11",
+            "end": "2008-06"
+        }, {
+            "start": "2014",
+            "end": currentYear
         }]
     }, {
         "category": "MySQL",
@@ -109,37 +122,40 @@ var chart = AmCharts.makeChart("chartdiv", {
         "category": "PostgreSQL",
         "segments": [{
             "start": "2015-09",
-            "end": "2019-07"
+            "end": currentYear
         }]
     }, {
-        "category": "CodeIgniter 2/3",
+        "category": "CodeIgniter",
         "segments": [{
             "start": "2014-08",
-            "end": "2019-07"
+            "end": "2021"
         }]
     }, {
-        "category": "Laravel 5",
+        "category": "Laravel",
         "segments": [{
             "start": "2014",
             "end": "2016"
+        }, {
+            "start": "2022-10",
+            "end": currentYear
         }]
     }, {
         "category": "Symfony",
         "segments": [{
             "start": "2014-08",
-            "end": "2019-07"
+            "end": "2022"
         }]
     }, {
         "category": "Doctrine",
         "segments": [{
             "start": "2014-08",
-            "end": "2019-07"
+            "end": "2022"
         }]
     }, {
         "category": "RegEx (Regular Expressions)",
         "segments": [{
             "start": "2015-09",
-            "end": "2023"
+            "end": currentYear
         }]
     }, {
         "category": "Wix",
